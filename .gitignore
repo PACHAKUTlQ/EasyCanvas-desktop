@@ -1,0 +1,24 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+build/bin
+node_modules
+frontend/dist
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+examples/**/example*
+!examples/**/*.*
+cmd/wails/wails
+.DS_Store
+tmp
+package.json.md5
+.vscode
